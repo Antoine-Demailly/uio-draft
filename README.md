@@ -92,6 +92,6 @@ module.exports = {
     const user = await this.$db.User.create(this.body);
  
     return user;
-  }.
+  },
 };
 ```
